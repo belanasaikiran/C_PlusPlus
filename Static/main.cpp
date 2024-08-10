@@ -3,14 +3,13 @@
 //
 
 #include <iostream>
-
+#include "static.h"
 #define LOG(x) std::cout << x << std::endl
 
-
-int s_variable = 10;
+extern int s_Variable;
 
 int main() {
-    std::cout << s_variable << std::endl;
+    std::cout << s_Variable << std::endl;
 
     std::cin.get();
 }

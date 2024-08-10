@@ -25,7 +25,7 @@ Like `#include, #define, #if and #ifdef`
 - 📚 Object files are created for each translation unit.
 - 🔗 The linker combines object files into an executable.
 
-### Key Insights
+### What happens in Preprocessing ?
 
 - 📝 Text to Binary Transformation: 
   The C++ compiler plays a crucial role in transforming human-readable code into machine code that the CPU can execute. This transformation involves multiple stages, starting from pre-processing to generating object files. Understanding each stage helps developers optimize their code.
@@ -54,6 +54,37 @@ Like `#include, #define, #if and #ifdef`
 Linking is process of converting the source files to an executable binary. Primary focus is to find where each symbol and function is and link them together.
 Since each file is converted into a separate object file and they have no relation to each other. We need a way to link them together. This is where Linker comes into action.
 
-> Linking happens when we build not compile.
+> Linking happens when we build! not compile.
+
+## OOPS & DS:
+
+### Struct 
+Struct makes everything public by default
+
+### Classes:
+A class makes everything private by default, so you need explicitly mention which variables to be public and which to private
+
+## Static 
+
+When you declare a function or a variable with `static`, it would be accessible only in that one file or function. 
+
+### Static inside a Struct or Class
+
+When you declare a static variable or function inside a struct or class, if you update the variable in any of the instances, it is reflected on all instances. 
+
+## Enums:
+
+Enums are just a way of representing values (integers). It is just to make the code more readable. It's like a name of var which represents the value.
+-  enums by default are 32 bit integers
+
+## Constructors:
+
+A constructor is basically a special type of method which gets executed everytime we create/instantiate an object out of a class.
+- Constructor name must match the class name
+> Constructors won't run if you don't instantiate an object. If you use just `static` methods from a class, it won't run. 
+
+We can also remove constructors.
+
+
 
 

@@ -4,5 +4,5 @@ project(C__)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(C__
-        HowLinkerWorks/main.cpp
+        Constructors/main.cpp
 )

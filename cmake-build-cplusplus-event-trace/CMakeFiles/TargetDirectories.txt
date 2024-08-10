@@ -1,0 +1,3 @@
+/Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace/CMakeFiles/C__.dir
+/Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace/CMakeFiles/edit_cache.dir
+/Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace/CMakeFiles/rebuild_cache.dir

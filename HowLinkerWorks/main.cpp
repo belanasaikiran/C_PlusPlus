@@ -8,6 +8,6 @@
 #define LOG(x) std::cout << x << std::endl;
 
 int main() {
-    LOG("Hello \n");
+    LOG(Multiply(5,6));
     std::cin.get();
 }
