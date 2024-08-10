@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace/
+cmake_ninja_workdir = /Users/sanju/CLionProjects/C_PlusPlus/bin/
 # =============================================================================
 # Object build statements for EXECUTABLE target C__
 
@@ -76,7 +76,7 @@ build C__: CXX_EXECUTABLE_LINKER__C___Debug CMakeFiles/C__.dir/Destructors/main.
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/sanju/CLionProjects/C_PlusPlus/bin && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/sanju/CLionProjects/C_PlusPlus -B/Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace
+  COMMAND = cd /Users/sanju/CLionProjects/C_PlusPlus/bin && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake --regenerate-during-build -S/Users/sanju/CLionProjects/C_PlusPlus -B/Users/sanju/CLionProjects/C_PlusPlus/bin
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/sanju/CLionProjects/C_PlusPlus/cmake-build-cplusplus-event-trace
+# Folder: /Users/sanju/CLionProjects/C_PlusPlus/bin
 
 build all: phony C__
 

@@ -1,0 +1,16 @@
+# ninja log v6
+7	155	1723257656909932075	build.ninja	f3a32e10c3640c3c
+27	1634	1722527749287698639	CMakeFiles/C__.dir/HowCompilerWorks/main.cpp.o	6b0a8ee0f0a55c59
+17	1241	1722536267954003605	CMakeFiles/C__.dir/HowLinkerWorks/main.cpp.o	87560db303d24955
+33	2454	1723237444726520366	CMakeFiles/C__.dir/Enums/main.cpp.o	c2e8abe21adfa545
+1379	1458	1723254791492845476	C__	f2f75af5b344a37e
+17	1260	1722536267954454691	CMakeFiles/C__.dir/HowLinkerWorks/Math.cpp.o	c5dc176e4d95e4fa
+25	1378	1723254790140239545	CMakeFiles/C__.dir/Constructors/main.cpp.o	3d75fc39b2917b3e
+3	1934	1723170459287387935	CMakeFiles/C__.dir/StaticforClasses&Structs/main.cpp.o	5ceafde82ce64f17
+19	917	1722542395846970791	CMakeFiles/C__.dir/Static/main.cpp.o	9521be526051e76d
+15	62	1722966280403873999	CMakeFiles/C__.dir/Static/static.cpp.o	db968649fb2b58a1
+64	155	1722527826526781405	CMakeFiles/C__.dir/HowCompilerWorks/Math.cpp.o	3e3870836fa312a
+17	1395	1723237671180780246	CMakeFiles/C__.dir/Enums/Enums.cpp.o	8f7acc87dd143d05
+3	150	1723257656909932075	build.ninja	f3a32e10c3640c3c
+0	1878	1723257656928334456	CMakeFiles/C__.dir/Destructors/main.cpp.o	287e8f6ccab96b2f
+1883	2187	1723257658810821086	C__	8ca0936d5b85a127

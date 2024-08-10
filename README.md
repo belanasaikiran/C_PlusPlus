@@ -85,6 +85,15 @@ A constructor is basically a special type of method which gets executed everytim
 
 We can also remove constructors.
 
+## Destructor:
+> An Evil Twin of Constructor. 
+
+A Destructor runs when you destroy an object. Destructor begins with `~` and name of class (Eg. `~Entity()`).
+A Destructor is used for uninitializing the variables for cleaning the memory.
+
+### Heap Allocated Objects
+If we allocate any kind of memory with heap, we need to remove/clean it manually. If you allocate memory with constuctor, you need to call destructor to destroy/de-allocate the memory.
+
 
 
 

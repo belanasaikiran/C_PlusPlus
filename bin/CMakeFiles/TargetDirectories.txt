@@ -1,0 +1,3 @@
+/Users/sanju/CLionProjects/C_PlusPlus/bin/CMakeFiles/C__.dir
+/Users/sanju/CLionProjects/C_PlusPlus/bin/CMakeFiles/edit_cache.dir
+/Users/sanju/CLionProjects/C_PlusPlus/bin/CMakeFiles/rebuild_cache.dir
