@@ -2,10 +2,9 @@
 Learning C++ in depth from Cherno
 
 
-# How Compiler Works ?
+## How Compiler Works ?
 
 ### Pre-processing 
-
 
 During this stage, the compiler goes through all the preprocessing statements and evaluate them.
 Like `#include, #define, #if and #ifdef`
@@ -64,7 +63,7 @@ Struct makes everything public by default
 ### Classes:
 A class makes everything private by default, so you need explicitly mention which variables to be public and which to private
 
-## Static 
+### Static 
 
 When you declare a function or a variable with `static`, it would be accessible only in that one file or function. 
 
@@ -72,12 +71,12 @@ When you declare a function or a variable with `static`, it would be accessible 
 
 When you declare a static variable or function inside a struct or class, if you update the variable in any of the instances, it is reflected on all instances. 
 
-## Enums:
+### Enums:
 
 Enums are just a way of representing values (integers). It is just to make the code more readable. It's like a name of var which represents the value.
 -  enums by default are 32 bit integers
 
-## Constructors:
+### Constructors:
 
 A constructor is basically a special type of method which gets executed everytime we create/instantiate an object out of a class.
 - Constructor name must match the class name
@@ -85,14 +84,31 @@ A constructor is basically a special type of method which gets executed everytim
 
 We can also remove constructors.
 
-## Destructor:
+### Destructor:
 > An Evil Twin of Constructor. 
 
 A Destructor runs when you destroy an object. Destructor begins with `~` and name of class (Eg. `~Entity()`).
 A Destructor is used for uninitializing the variables for cleaning the memory.
 
-### Heap Allocated Objects
+#### Heap Allocated Objects
 If we allocate any kind of memory with heap, we need to remove/clean it manually. If you allocate memory with constuctor, you need to call destructor to destroy/de-allocate the memory.
+
+## Object Oriented Programming
+
+### Inheritance in C++
+
+Inheritance allows us to have a hierarchy of classes which relate to each other.
+In simple terms, it allows us to have a base class of some functionalities and then allows us to branch off from that class and create sub-classes from that initial parent class.
+
+- It handles the code duplication but hides the visibility. More like a template. 
+
+### Virtual Functions
+
+
+
+
+
+
 
 
 
