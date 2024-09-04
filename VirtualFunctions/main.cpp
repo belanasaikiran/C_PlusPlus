@@ -6,7 +6,7 @@
 
 class Entity {
 public:
-    std::string GetName() { return "Entity";}
+    virtual std::string GetName() { return "Entity";} //virtualizing this function so, we can use polymorphism and more efficient way of cleaning the memory
 };
 
 
@@ -17,7 +17,24 @@ private:
 public:
     Player(const std::string& name) : m_Name(name){}
 
-    std::string GetName() {return m_Name;}
+    std::string GetName() override {return m_Name;} // make sure to use override, even not using override, it works, but using override  helps in better code readability and also it's provides syntax errors when making mistake in using virtual functions. It highlights whether the function is already declared in parent class MyClass {
+    public:
+      MyClass();
+      MyClass(MyClass &&) = default;
+      MyClass(const MyClass &) = default;
+      MyClass &operator=(MyClass &&) = default;
+      MyClass &operator=(const MyClass &) = default;
+      ~MyClass();
+
+    private:
+      
+    };
+
+    MyClass::MyClass() {
+    }
+
+    MyClass::~MyClass() {
+    }
 };
 
 int main() {
